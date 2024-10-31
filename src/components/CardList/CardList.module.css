@@ -1,0 +1,17 @@
+.cards_list {
+    display: grid;
+    justify-items: center; 
+    align-items: center; 
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.add_card {
+    border-radius: 50%;
+    background: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    border: none;
+}
